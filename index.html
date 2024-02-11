@@ -2,198 +2,90 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" 
-    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-     crossorigin="anonymous" 
-    referrerpolicy="no-referrer" />
-    <title>Pricing Landing Page</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+            <link rel="stylesheet" href="style.css ">
+    <title>registration from</title>
 </head>
 <body>
-    <header class="header-section">
-        <div class="header-container" >
-            <div class="nav-logo">
-                <a href="./index.html">
-                    <img src="./image/logo.jpg" alt="my logo" width="30% " height="auto">
-                </a>
-
+    <section class="container">
+        <header>Registration From</header>
+        <form action="#" class="form">
+            <div class="input-box">
+                <label for="name">Full Name:</label>
+                <input type="text" name="myName" id="name" placeholder="Enter your full name" required>
             </div>
-            <nav class="nav-bar">
-                <ul>
-                    <li class="nav-item">
-                        <a  class="nav-item-link" href="#">home</a> 
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-item-link" href="#">about</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-item-link" href="#">pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-item-link" href="#">contact</a>
-                    </li>
-                </ul>
 
-            </nav>
-        </div>
-    </header>
+            <div class="input-box">
+                <label for="name">Email Address:</label>
+                <input type="text" name="myName" id="name" placeholder="Enter your Email" required>
+            </div>
 
-
-    <main  >
-         <section class="section1">
-            <div class="container grid grid-two--cols">
-                <div class="section-hero--content">
-                    <p class="hero-subheading">
-                        EMPOWERING LIFE TO TECH LEARNING</p>
-                        <h1 class="hero-heading">
-                            unlock your potential with Tech solver
-                        </h1>
-                        <p class="hero-para">
-                            welcome to you tech solver, your gateway to 
-                            knowledge and skill development.we are dedicated
-                            to providing high-quility, accessible education 
-                            for learner all ages and backgrounds.
-                        </p>
-                        <div class="hero-btn">
-                            <a href="service.html" class="btn btn-white">Sign Up</a>
-                        </div>
+            <div class="colum">
+                <div class="input-box">
+                    <label for="name">User Name:</label>
+                    <input type="text" name="myName" id="name" placeholder="Enter your username" required>
                 </div>
-                <div class="section-hero--image">
-                    <figure>
-                        <img 
-                             src="./image/doingCoding3d.png"
-                             alt="a 3d character doing coding stuff"
-                             
-                        />
-                    </figure>
+
+                <div class="input-box">
+                    <label for="name">Password:</label>
+                    <input type="text" name="myName" id="name" placeholder="Enter your password" required>
                 </div>
             </div>
-         </section>
-         <section class="section2">
-            <div class="container">
-                <h2 class="section-common-heading"> Tech Solver Course Pricing</h2>
+            <div class="gender-box">
+                <h3>Gender </h3>
+                <div class="gender-option">
+                    <div class="gender">
+                        <input type="radio" id="check-male" name="gender" checked />
+                        <label for="check-male">Male</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check-female" name="gender" />
+                        <label for="check-female">Female</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check-other" name="gender" />
+                        <label for="check-other">Other</label>
+                    </div>
+                </div>
             </div>
-                <div class="container grid grid-four--cols">
-                    <div class="cource-div">
-                        <div class="icon">
-                            <i class="fa-solid fa-code"></i>
-                        </div>
-                        <h3 class="section-common--title">Frontend 
-                            Tech
-                        </h3>
-                        <p>
-                            Learn with us frontend technology like HTML, CSS, JAVASCRIPT.
-                        </p>
-                        <div class="hero-btn">
-                            <a href="service.html" class="btn btn-white">Join Now - ₹1999</a>
-                        </div>
-                    </div>
-        
-                    <div class="cource-div">
-                        <div class="icon">
-                            <i class="fa-solid fa-code"></i>
-                        </div>
-                        <h3 class="section-common--title">Backend Tech</h3>
-                        <p>
-                            Learn with us backend technology like 
-                            Node-js, Django, Express.js .
-                        </p>
-                        <div class="hero-btn">
-                            <a href="service.html" class="btn btn-white">Join Now - ₹3999</a>
-                        </div>
-                    </div>
-                     <div class="cource-div">
-                        <div class="icon">
-                            <i class="fa-solid fa-code"></i>
-                        </div>
-                        <h3 class="section-common--title">FullStack Tech</h3>
-                        <p>
-                            Learn with us FullStack Technology 
-                            Frontend and Backend .
-                        </p>
-                        <div class="hero-btn">
-                            <a href="service.html" class="btn btn-white">Join Now - ₹4999</a>
-                        </div>
+            <div class="colum">
+                <div class="input-box">
+                    <label for="name">Phone No:</label>
+                    <input type="number" name="myName" id="name" placeholder="Enter your number" required>
+                </div>
 
-                    </div>
-        
-                    <div class="cource-div">
-                        <div class="icon">
-                            <i class="fa-solid fa-code"></i>
-                        </div>
-                        <h3 class="section-common--title ">Data Science</h3>
-                        <p>
-                             Learn with us Data Science Technology Python, machinLearning, AI .
-                        </p>
-                        <div class="hero-btn">
-                            <a href="service.html" class="btn btn-white">Join Now - ₹5999</a>
-                        </div>
-                    </div>
-        
-                    
+                <div class="input-box">
+                    <label for="name">Date:</label>
+                    <input type="date" name="myName" id="name" placeholder="Enter your birth date" required>
+                </div>
+            </div>
+
+            <div class="input-box address">
+                <label for="name">Address:</label>
+                <input type="text" name="myName" id="name" placeholder="Enter your address" required>
                  
-            </div>
-             
-         </section>
-        </main>
-         <footer>
-            <div class="container grid grid-four--cols">
-                <div class="footer-1--div">
-                    <div class="logo-brand">
-                        <a href="index.html" class="footer-subheading">tech solver</a>
-                        <p>Let's revolutionate  your study for  easy life</p>
+                <div class="colum">
+                    <div class="select-box">
+                         <select>
+                            <option hidden>country</option>
+                            <option>India</option>
+                            <option>America</option>
+                            <option>Japan</option>
+                            <option>Nepal</option>
+                         </select>
                     </div>
-                    <div class="social-footer--icons">
-                        <a href="http://www.youtube.com/@Btechcricketer" target="_blank">
-                            <i class="fa-brands fa-youtube"></i>
-                        </a>
-                        <a href="https://www.instagram.com/7shubham_gupta/" target="_blank">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/shubham-gupta-68062a281/" target="_blank">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                    </div>
+                    <input type="text" name="myName" id="name" placeholder="Enter your city" required>
                 </div>
-    
-    
-                <div class="footer-2--div">
-                    <p class="footer-subheading"> cources</p>
-                        <ul>
-                            <li><a href="index.html">HTML</a></li>
-                        <li><a href="index.html">REACT</a></li>
-                            <li><a href="index.html">NODE JS</a></li>
-                        </ul>
-                    
+                <div class="colum">
+                    <input type="text" name="myName" id="name" placeholder="Enter your region" required>
+                    <input type="number" name="myName" id="name" placeholder="Enter your postal code" required>
+
                 </div>
-    
-                <div class="footer-3--div">
-                    <p class="footer-subheading">Company </p>
-                        <ul>
-                            <li><a href="index.html">About</a></li>
-                             
-                            <li><a href="index.html">Careers</a></li>
-                            <li><a href="index.html">Courses</a></li>
-                        </ul>
-                   
-                </div>
-    
-                <div class="footer-4--div">
-                    <p class="footer-subheading"> Follow Us </p>
-                        <ul>
-                            <li><a href="index.html">Linkedin</a></li>
-                            <li><a href="index.html">Instagram</a></li>
-                            <li><a href="index.html">Contact Us</a></li>
-                             
-                        </ul>
-                    
-                </div>
-                      
+                
             </div>
-         </footer>
-    
-    
+          <button>Submit</button>
+        </form>
+
+    </section>
 </body>
 </html>
